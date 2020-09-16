@@ -28,4 +28,5 @@ function handleCalculateTip(event) {
   let grandTotal = calculateTotal(total, tipAmount);
 
   document.getElementById("tip-amount").textContent = `$${tipAmount}`;
+  document.getElementById("new-total").textContent = `$${grandTotal}`;
 }
